@@ -1,0 +1,100 @@
+
+     .placeholder{
+        display: block;
+        width: 200px;
+        height: 45px;
+        font-size:15px;
+        background-color: rgb(175, 174, 174);
+        border:2px solid rgb(198, 192, 192);
+        border-radius:15px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+        padding-left:20px;
+        padding-right:0;
+        margin-bottom:80px;
+        margin-left:670px;
+        margin-right:670px;
+    }
+
+    p{
+        font-family: Arial;
+        font-size:12px;
+        margin-top:0;
+        margin-bottom:0;
+        margin-left:140px;
+    }
+
+    .p3,.p5,.p8,.p9{
+        margin-left:150px;
+    }
+
+    .p1{
+        font-size: 20px;
+        font-weight:lighter;
+        width: 300px;
+        margin-left:150px;
+        margin-bottom:20px;
+    }
+
+    .p2{
+        font-size: 20px;
+        font-weight:lighter;
+        width: 350px;
+        margin-bottom:20px;
+
+    }
+
+    .p7{
+        font-size: 20px;
+        font-weight:lighter;
+        width: 350px;
+        margin-left:150px;
+        margin-bottom:20px;
+    }
+     
+     .hardik12{
+        display:inline-block;
+        height :250px;
+        width:300px;
+        object-fit:cover;
+        object-position:top;
+    }
+
+    .ismail{
+        display:inline-block;
+        height :250px;
+        width:300px;
+        object-fit:cover;
+        object-position:top;
+    }
+
+    .pranav{
+        display:inline-block;
+        height :250px;
+        width:300px;
+        object-fit:cover;
+        object-position:top;
+       
+    }
+    . hardik_logo{
+        display:inline-block
+    }
+    .hardik video-preview {
+        width:300px;
+        height: 260px;
+        margin-left:150px;
+    }
+    .hardiklogo{
+        width: 30px;
+        height: 30px;
+        margin-left:150px;
+    }
+
+    .hardik video-info{
+        diplay:inline-block;
+        margin: left 0;
+    }
+
+    .Hardik,.Ismail,.Pranav{
+         margin-bottom:50px;
+        display:inline-block;
+    }
