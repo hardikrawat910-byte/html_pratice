@@ -1,4 +1,9 @@
-
+.video-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+}
 
 .hardik12{
     width:300px;
@@ -7,11 +12,11 @@
 }
 .video_info-grid{
     display: grid;
-    grid-template-columns: 60px 1fr;
+    grid-template-columns: 50px 1fr;
 }
 .hardiklogo{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius:50px;
     
 }
@@ -47,6 +52,13 @@
     margin-bottom: 10px;
 }
 
+.ismailchannel{
+    width: 40px;
+    height: 40px;
+    border-radius:50px;
+    
+}
+
 .p2{
     font-size: 20px;
     color: black;
@@ -70,3 +82,41 @@
     width:250px;
     font-weight:500;
 }
+
+.pranav{
+    width:300px;
+    height:300px;
+    margin-bottom: 10px;
+}
+
+.pranavchannel{
+    width: 40px;
+    height: 40px;
+    border-radius:50px;
+    
+}
+
+.p7{
+    font-size: 20px;
+    color: black;
+    font-family: Roboto,Ariel;
+    font-size: 18px;
+    font-weight: 650;
+    width: 250px;
+    height: 50px;
+    margin-bottom:0;
+    margin-top: 0;
+    line-height: 25px; 
+}
+
+.p8,.p9{
+    font-size: 20px;
+    color: rgb(148, 145, 145);
+    font-family: Roboto,Ariel;
+    font-size: 15px;
+    margin-bottom:0;
+    margin-top:10px;
+    width:250px;
+    font-weight:500;
+}
+
