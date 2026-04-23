@@ -3,38 +3,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .grid-1 {
+            display: grid;
+            grid-template-columns: 100px 200px;
+        }
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 100px 200px;
+            margin-top: 10px;
+        }
+        .grid-3 {
+            display: grid;
+            grid-template-columns: 100px 1fr;
+            margin-top: 10px;
+        }
+        .grid-4 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 2fr;
+            margin-top: 10px;
+        }
+        .bg-aqua {
+            background-color: aqua;
+        }
+        .bg-lightgray {
+            background-color: lightgray;
+        }
+        .bg-red {
+            background-color: rgb(218, 76, 76);
+        }
+    </style>
 </head>
 <body>
-    <div style= 
-    "display:grid ; 
-    grid-template-columns:100px 200px ;">
-        <div style="background-color: aqua;">oo</div>
-        <div style="background-color: lightgray;">xx</div>
+    <div class="grid-1">
+        <div class="bg-aqua">oo</div>
+        <div class="bg-lightgray">xx</div>
     </div>
 
-     <div style= 
-    "display:grid ; 
-    grid-template-columns:100px 200px ;
-    margin-top:10px;">
-        <div style="background-color: aqua;">oo</div>
-        <div style="background-color: lightgray;">xx<p>ooyeah</p></div>
+    <div class="grid-2">
+        <div class="bg-aqua">oo</div>
+        <div class="bg-lightgray">xx<p>ooyeah</p></div>
     </div>
 
-        <div style= 
-    "display:grid ; 
-    grid-template-columns:100px 1fr ;
-    margin-top:10px;">
-        <div style="background-color: aqua;">oo</div>
-        <div style="background-color: lightgray;">xx<p>ooyeah</p></div>
+    <div class="grid-3">
+        <div class="bg-aqua">oo</div>
+        <div class="bg-lightgray">xx<p>ooyeah</p></div>
     </div>
 
-     <div style= 
-    "display:grid ; 
-    grid-template-columns:1fr 1fr 2fr;
-    margin-top:10px;">
-        <div style="background-color: aqua;">oo</div>
-        <div style="background-color: lightgray;">xx<p>ooyeah</p></div>
-        <div style="background-color: rgb(218, 76, 76);">xx<p>ooyeah</p></div>
+    <div class="grid-4">
+        <div class="bg-aqua">oo</div>
+        <div class="bg-lightgray">xx<p>ooyeah</p></div>
+        <div class="bg-red">xx<p>ooyeah</p></div>
     </div>
 </body>
 </html>
