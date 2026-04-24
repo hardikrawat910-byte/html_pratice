@@ -5,10 +5,9 @@
     row-gap: 40px;
 }
 
-.hardik12{
-    width:300px;
-    height:300px;
-    margin-bottom: 10px;
+.hardik123{
+   width: 100%;  
+ 
 }
 .video_info-grid{
     display: grid;
@@ -47,9 +46,7 @@
 }
 
 .ismail12{
-    width:300px;
-    height:300px;
-    margin-bottom: 10px;
+    width:100%;
 }
 
 .ismailchannel{
@@ -84,9 +81,7 @@
 }
 
 .pranav{
-    width:300px;
-    height:300px;
-    margin-bottom: 10px;
+    width:100%;
 }
 
 .pranavchannel{
